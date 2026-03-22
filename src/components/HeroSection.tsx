@@ -1,4 +1,5 @@
 import { Phone, MapPin, Star } from "lucide-react";
+import logoLgv from "@/assets/logo-lgv.jpg";
 
 const SteamIcon = () => (
   <svg width="40" height="50" viewBox="0 0 40 50" className="absolute -top-6 left-1/2 -translate-x-1/2">
@@ -30,8 +31,8 @@ const HeroSection = () => {
         {/* Monogram */}
         <div className="relative inline-block mb-8">
           <SteamIcon />
-          <div className="w-20 h-20 mx-auto rounded-full border-2 border-gold/40 flex items-center justify-center">
-            <span className="text-3xl font-serif font-bold text-gold tracking-widest">LGV</span>
+          <div className="w-24 h-24 mx-auto rounded-full border-2 border-gold/40 overflow-hidden shadow-lg">
+            <img src={logoLgv} alt="Logo Café-Resto LGV" className="w-full h-full object-cover" />
           </div>
         </div>
 
