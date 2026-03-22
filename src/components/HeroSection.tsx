@@ -1,4 +1,5 @@
 import { Phone, MapPin, Star } from "lucide-react";
+import logoLgv from "@/assets/logo-lgv.jpg";
 
 const SteamIcon = () => (
   <svg width="40" height="50" viewBox="0 0 40 50" className="absolute -top-6 left-1/2 -translate-x-1/2">
