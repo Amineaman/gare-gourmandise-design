@@ -31,8 +31,8 @@ const HeroSection = () => {
         {/* Monogram */}
         <div className="relative inline-block mb-8">
           <SteamIcon />
-          <div className="w-20 h-20 mx-auto rounded-full border-2 border-gold/40 flex items-center justify-center">
-            <span className="text-3xl font-serif font-bold text-gold tracking-widest">LGV</span>
+          <div className="w-24 h-24 mx-auto rounded-full border-2 border-gold/40 overflow-hidden shadow-lg">
+            <img src={logoLgv} alt="Logo Café-Resto LGV" className="w-full h-full object-cover" />
           </div>
         </div>
 
